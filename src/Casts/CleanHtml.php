@@ -6,6 +6,7 @@ namespace Trigold\Purifier\Casts;
 
 use Hyperf\Database\Model\Model;
 use Hyperf\Contract\CastsAttributes;
+use function Trigold\Purifier\clean;
 
 class CleanHtml implements CastsAttributes
 {
