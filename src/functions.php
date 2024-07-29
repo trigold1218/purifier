@@ -1,6 +1,7 @@
 <?php
+namespace Trigold\Purifier;
 
-use Trigold\Purifier\Purifier;
+use Closure;
 use Hyperf\Context\ApplicationContext;
 
 if (!function_exists('clean')) {
